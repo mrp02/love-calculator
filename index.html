@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+<body>
+
+
+    <div class="container-fluid mx-auto col-lg-5">
+        <h1 class="text-danger ms-5">Love Calculator</h1> <br> 
+        <div class="alert alert-danger my-0 p-1 mx-auto w-100" style="display: none;" id="putName">Put your name joor</div>
+        <label for="yourName">Your Name:</label> <br>
+        <input class="inp1 w-100 form-control shadow-none" type="text" id="yourName" autofocus>
+        <label for="partnerName">Partner's Name:</label> <br>
+        <input class="inp2 w-100 form-control shadow-none" type="text" id="partnerName">
+        <button class="btn btn-danger w-100" onclick="calculateLove()">Calculate</button>
+        <div id="result" class="text-dark"></div>
+        <div id="show" class="text-danger"></div>
+    </div>
+
+    
+    <link rel="stylesheet" href="bootstrap.js">
+    
+<script src="script.js"></script>
+</body>
+</html>
